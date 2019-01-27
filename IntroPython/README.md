@@ -38,13 +38,13 @@ Mallika Gandham
 ##Running prog4.py 
 ./prog4.py
 
-#prog5.py 
-##Overview 
+# prog5.py 
+## Overview 
 This program outputs the coding and noncoding region of the sequence myDNA2 in upper case and lower case respectively 
-##Author
+## Author
 Mallika Gandham 
-##Date Created 
+## Date Created 
 27-01-2019 
-##Running prog5.py 
+## Running prog5.py 
 ./prog5.py
 
