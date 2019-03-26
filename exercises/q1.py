@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def percent_protein(protein, amino):
     protein1 = protein.upper()
     lp = len(protein1)
