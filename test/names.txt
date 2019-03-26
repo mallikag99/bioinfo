@@ -1,0 +1,9 @@
+total 28
+-rw-r--r--. 1 gandham.m BioInfo 97 Jan 18 23:42 dir_tree.txt
+-rw-r--r--. 1 gandham.m BioInfo 32 Jan 19 00:51 file1
+-rw-r--r--. 1 gandham.m BioInfo 32 Jan 19 16:39 file2
+-rw-r--r--. 1 gandham.m BioInfo 39 Jan 19 16:42 myerror.log
+-rw-r--r--. 1 gandham.m BioInfo  9 Jan 19 00:03 myname.txt
+-rw-r--r--. 1 gandham.m BioInfo 71 Jan 19 16:48 myoutput
+-rw-r--r--. 1 gandham.m BioInfo  0 Jan 19 20:55 names.txt
+-rwxr-xr-x. 1 gandham.m BioInfo 65 Jan 19 00:35 say_hello.sh

@@ -1,0 +1,3 @@
+total 0
+-rw-r--r--. 1 gandham.m BioInfo 0 Jan 18 23:42 dir_tree.txt
+Fri Jan 18 23:42:20 EST 2019
