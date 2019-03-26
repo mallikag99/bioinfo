@@ -1,12 +1,15 @@
-def percent_protein(protein, amino):
+#!/usr/bin/env python3
+def percent_amino(protein, amino = ['A','I','L','M','F','W','Y','V']):
     protein1 = protein.upper()
     lp = len(protein1)
-    amino1 = amino.upper()
-    amino_count = protein1.count(amino1)
-    percent = amino_count * 100/ lp
+    result = 0
+    for i in amino:
+        i_count = protein1.count(i)
+        result = result + i_count
+    percent = result*100/lp
     return percent
-assert percent_protein("MSRSLLLRFLLFLLLLPPLP", "M") == 5
-assert percent_protein("MSRSLLLRFLLFLLLLPPLP", "r") == 10
-assert percent_protein("msrslllrfllfllllpplp", "L") == 50
-assert percent_protein("MSRSLLLRFLLFLLLLPPLP", "Y") == 0
-~                                                             
+
+assert percent_amino("MSRSLLLRFLLFLLLLPPLP", ["M"]) == 5
+assert percent_amino("MSRSLLLRFLLFLLLLPPLP", ['M', 'L']) == 55
+assert percent_amino("MSRSLLLRFLLFLLLLPPLP", ['F', 'S', 'L']) == 70
+assert percent_amino("MSRSLLLRFLLFLLLLPPLP") == 65
