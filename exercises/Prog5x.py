@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 open("data.csv")
 for line in f:
      columns = line.rstrip("\n").split(",")
