@@ -22,6 +22,6 @@ For each gene, print out a message giving the gene name and saying whether its G
 ## Overview
 Write a function that takes two arguments – a protein sequence and an amino acidresidue code – and returns the percentage of the protein that the amino acid makes up and checks few assertions 
 
-# q2.py 
-## Overview 
+#  q2.py 
+##  Overview 
 Write a function that takes two arguments – wherein it accepts a list of amino acid residues rather than a single one. If no list is given, the function should return the percentage of hydrophobic amino acid residues (A, I, L, M, F, W, Y and V) and checks few assertions
